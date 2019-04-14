@@ -14,17 +14,26 @@ roll -> randomly choose between 1 and 6
 print("random number")
 
 STEP 1: function to roll the dice -> produce a roll
-STEP 2:
+STEP 2: function to ask and repeat Step 1
 '''
 
 import random
 
-#STEP 1Function to roll the dice and store the number rolled in a container.  
+#STEP 1: Function to roll the dice and store the number rolled in a container.  
 def roll():
     num_rolled = random.randint(1, 6)
-    print(num_rolled)
+    print("You rolled {} " .format(num_rolled))
 roll()
 
+# STEP 2:  
+roll_again = input("Ready to roll the dice again")
+if roll_again != 'q':
+    num_rolled = random.randint(1, 6)
+    print("You rolled {} " .format(num_rolled))
+else:
+    print("Stopped playing")
 
 
+name = input("YOur name?")
+print("your name is " + name)
 
