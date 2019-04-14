@@ -12,6 +12,19 @@ should I roll again? Y/N?
 Y
 roll -> randomly choose between 1 and 6
 print("random number")
+
+STEP 1: function to roll the dice -> produce a roll
+STEP 2:
 '''
+
+import random
+
+#STEP 1Function to roll the dice and store the number rolled in a container.  
+def roll():
+    num_rolled = random.randint(1, 6)
+    print(num_rolled)
+roll()
+
+
 
 
