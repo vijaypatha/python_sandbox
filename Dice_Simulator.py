@@ -86,3 +86,31 @@ new_name = []
 new_name.extend(list_of_names)
 print(new_name)
 
+1 keep_looping = True
+2 while keep_looping == True:
+3 user_input = input("Enter a city, or q to
+quit:")
+4 if user_input != "q":
+5 for a_clean_city in cleanest_cities:
+6 if user_input == a_clean_city:
+7 print("It's one of the cleanest cities")
+8 break
+9 else:
+10 keep_looping = False
+
+keep_looping = True
+while keep_looping = True:
+    user_input = input("Enter a city or q")
+    if user_input !="q":
+        for city in clean_city:
+            if user_input = city:
+                print("Good choice")
+                break
+    else:
+        keep_looping = False
+
+rolling = True
+while rolling = True:
+    user_input = input("roll or q")
+    if user_input != "q":
+        
