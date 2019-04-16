@@ -43,7 +43,7 @@ clean_city = ["seattle", "saltlake"]
 userInput = ""
 while userInput != "q":
     userInput = input("Enter a city or Q to quite")
-    if user_input != "q":
+    if userInput != "q":
         for city in clean_city:
             if userInput == city:
                 print("its on of the clean city")
@@ -63,14 +63,26 @@ list_of_names = ["Farina", "Madi", "Annie", "Max", "Vlad", "Punya", "Muhammad"]
 second_list_of_names = []
 counter = 0
 while counter < len(list_of_names):
-  second_list_of_names.append(list_of_names[counter])
-  counter += 1
+    second_list_of_names.append(list_of_names[counter])
+    counter += 1
 print (second_list_of_names)
 
+list_of_names = ["heidi", "vijay", "indigo"]
+new_list = []
+i = 0
+while i < len(list_of_names):
+    new_list.append(list_of_names[i])
+    i += 1
+print(new_list)
 
-list_of_names = ["Farina", "Madi", "Annie", "Max", "Vlad", "Punya", "Muhammad"]
-print(len(list_of_names))
-counter = 0
-while counter < len(list_of_names):
-    counter += 1
-    print(counter)
+pet = ["dog", "cat"]
+wild = ["wolf", "tiger"]
+#wild.append(pet)
+wild.extend(pet)
+print(wild)
+
+list_of_names = ["heidi", "vijay", "indigo"]
+new_name = []
+new_name.extend(list_of_names)
+print(new_name)
+
