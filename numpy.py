@@ -27,6 +27,7 @@ What is np.array() -> its a function in numpy that returns ndarray
 
 
 '''
+'''
 import sys
 
 print(sys.version)
@@ -34,4 +35,3 @@ print(sys.version)
 import numpy as np
 x = np.array([1,2,3,4,5])
 print('x =', x)
-'''
