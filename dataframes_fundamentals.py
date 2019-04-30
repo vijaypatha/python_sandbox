@@ -27,8 +27,8 @@ shopping_carts
 
 
 # We create a dictionary of Pandas Series 
-people = [{'Bob' : pd.Series(data = [245, 25, 55], index = ['bike', 'pants', 'watch']),
-         'Alice' : pd.Series(data = [40, 110, 500, 45], index = ['book', 'glasses', 'bike', 'pants'])}]
+people = {'Bob' : pd.Series(data = [245, 25, 55], index = ['bike', 'pants', 'watch']),
+         'Alice' : pd.Series(data = [40, 110, 500, 45], index = ['book', 'glasses', 'bike', 'pants'])}
 store_items = pd.DataFrame(people, index = ['store 1', 'store 2'])
 store_items
 
