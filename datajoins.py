@@ -44,7 +44,7 @@ df3
 #Concatnating two dataframes
 df_row = pd.concat([df1, df2])
 
-df_row
+df_row # this will just add row, regardless of anything 
 
 
 # In[6]:
@@ -52,7 +52,7 @@ df_row
 
 df_merge_col = pd.merge(df_row, df3, on='id')
 
-df_merge_col
+df_merge_col # this will fillter for common ids. ie. 
 
 
 # In[ ]:
